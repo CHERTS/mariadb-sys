@@ -8,10 +8,15 @@ There are install files available for 10.x respectively. To load these, you must
 
 The objects should all be created as the root user (but run with the privileges of the invoker).
 
-For instance if you download to /tmp/mariadb-sys/, and want to install the 10.x version you should:
+For instance if you download to /tmp/mariadb-sys/, and want to install the 10.1 - 10.4 version you should:
 
     cd /tmp/mariadb-sys/
     mysql -u root -p < ./sys_10.sql
+
+For instance if you download to /tmp/mariadb-sys/, and want to install the 10.5 version you should:
+
+    cd /tmp/mariadb-sys/
+    mysql -u root -p < ./sys_10.5.sql
 
 <!-- Or if you would like to log in to the client, and install the 5.7 version:
  
